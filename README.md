@@ -1,6 +1,6 @@
 # Store Mimecast URLs locally
 
-DICLAIMER: This is a proof of concept/example only and comes without warranty or support.
+DISCLAIMER: This is a proof of concept/example only and comes without warranty or support.
 
 This service continuously monitors an IMAP mailbox for unread emails containing Mimecast-rewritten URLs (those with mimecastprotect.com). If detected the service decodes each of the rewritten URLS via the Mimecast API, and stores the mapping of encoded→decoded  (key→value) URLs in a lightweight PickleDB database. By running inside a Docker container under supervisord, it seamlessly handles both the mailbox polling and a FastAPI-powered lookup endpoint—so you can retrieve any previously decoded URL with a simple HTTP GET request.
 
