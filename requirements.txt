@@ -1,0 +1,6 @@
+pickledb
+#aiosqlite
+requests
+fastapi
+uvicorn[standard]
+aiohttp
