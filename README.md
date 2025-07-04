@@ -1,4 +1,4 @@
-# Store Mimecast URLs locally
+# Store decoded Mimecast URLs locally
 
 DISCLAIMER: This is a proof of concept/example only and comes without warranty or support.
 
