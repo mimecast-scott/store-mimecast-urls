@@ -19,5 +19,16 @@ admin/Admin
 
 fastapi is available via
 `http://localhost:8000/getAll`
+
+with sample response:
+````
+{"total":4,"keys":["https://url.uk.m.mimecastprotect.com/s/...","https://url.uk.m.mimecastprotect.com/s/...","https://url.uk.m.mimecastprotect.com/s/...","https://url.uk.m.mimecastprotect.com/s/..."]
+````
+
 or
 `http://localhost:8000/get?key=<---mimecastprotect-url--->`
+
+with sample response:
+````
+{"key":"https://url.uk.m.mimecastprotect.com/s/4RXcxy6ZopdfVfJIJJj8d?domain=example.org","value":"https://example.org"}
+````
